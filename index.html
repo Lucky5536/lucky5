@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUCKY 5</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #090909;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 35px 20px;
+}
+
+.logo {
+    font-size: 42px;
+    font-weight: bold;
+    color: #d4af37;
+    letter-spacing: 4px;
+}
+
+.hero {
+    padding: 30px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #ccc;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 16px 30px;
+    background: #d4af37;
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.prizes {
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.card {
+    flex: 1;
+    background: #151515;
+    border: 1px solid #333;
+    border-radius: 18px;
+    padding: 25px;
+}
+
+.card h2 {
+    color: #d4af37;
+}
+
+.car {
+    font-size: 55px;
+}
+
+.phone {
+    font-size: 55px;
+}
+
+.note {
+    margin: 30px auto;
+    max-width: 700px;
+    padding: 15px;
+    color: #888;
+    font-size: 13px;
+}
+
+@media (max-width: 650px) {
+    .prizes {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">LUCKY 5</div>
+    <p>Premii premium. Participare simplă.</p>
+</header>
+
+<section class="hero">
+    <h1>Câștigă unul dintre premiile noastre</h1>
+    <p>Participarea: <strong>5 €</strong></p>
+
+    <a class="button" href="#participa">
+        PARTICIPĂ — 5 €
+    </a>
+</section>
+
+<section class="prizes">
+
+    <div class="card">
+        <div class="car">🚘</div>
+        <h2>🥇 LOCUL 1</h2>
+        <h3>BMW X6 2026</h3>
+        <p>Premiul principal</p>
+    </div>
+
+    <div class="card">
+        <div class="phone">📱</div>
+        <h2>🥈 LOCUL 2</h2>
+        <h3>iPhone 18</h3>
+        <p>Premiul secundar</p>
+    </div>
+
+</section>
+
+<section class="hero" id="participa">
+    <h2>Participă</h2>
+
+    <a class="button" href="#">
+        CONTINUĂ
+    </a>
+</section>
+
+<div class="note">
+    DEMO — Plata și participarea reală nu sunt activate.
+    Înainte de lansare trebuie stabilite regulamentul,
+    mecanismul legal și procesatorul de plăți.
+</div>
+
+</body>
+</html>
